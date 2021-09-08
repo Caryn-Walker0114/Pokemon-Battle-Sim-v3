@@ -302,7 +302,7 @@ void calculateDamage(Pokemon & attacker, Pokemon & defender) // Friend function
 
         printInfo(attacker, defender);
 
-        declareWinner(attacker);
+        declareWinner(attacker, defender);
     }
 
     std::this_thread::sleep_for(std::chrono::milliseconds(1500));
