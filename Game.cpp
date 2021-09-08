@@ -284,6 +284,8 @@ void declareWinner(Pokemon & winner, Pokemon & loser)
         std::cout << "Your Pokemon has 0 health left! You lost...\n\n";
         std::cout << "Game Over...\n\n";
     }
+    
+    std::cout << "Please exit sprite box then hit enter. \n\n";
 
     displaySprite(winner); // Display winning Pokemon sprite
 }
