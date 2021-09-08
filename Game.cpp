@@ -269,16 +269,18 @@ void displaySprite(Pokemon & x)
 //-----------------------------------------
 
 
-void declareWinner(Pokemon & winner)
+void declareWinner(Pokemon & winner, Pokemon & loser)
 {
     if(winner.getSideStatus() == true ) // The winner is the player
     {
+        printInfo(winner, loser);
         std::cout << "The enemy has 0 health left! You win!! \n\n";
     }
 
 
     else if(winner.getSideStatus() == false) //The winner is the AI
     {
+        printInfo(loser, winner);
         std::cout << "Your Pokemon has 0 health left! You lost...\n\n";
         std::cout << "Game Over...\n\n";
     }
