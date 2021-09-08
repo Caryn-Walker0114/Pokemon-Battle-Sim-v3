@@ -64,7 +64,7 @@ class Game
 
         friend bool healthCheck(Pokemon & x); // Checks health after a Pokemon attacks to see if the defending Pokemon can still fight.
 
-        friend void declareWinner(Pokemon & x); // Declares the winner of the battle
+        friend void declareWinner(Pokemon & a, Pokemon & b); // Declares the winner of the battle
 
 
         friend void battle(Pokemon & a, Pokemon & b); // Function that calls all functions necessary for the battle
