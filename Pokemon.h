@@ -28,7 +28,7 @@ class Pokemon
 
         inline const std::string& getName() const { return this->name;}
 
-        inline const int& getMaxHealth() const { return this->maxHealth;} //It is not grabbing the max health....
+        inline const int& getMaxHealth() const { return this->maxHealth;} 
 
         inline const int& getAttack() const { return this->attack;}
 
