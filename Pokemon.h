@@ -45,7 +45,7 @@ class Pokemon
          int currentHealth;
          int attack;
          int speed;
-        bool friendOrFoe;
+         bool friendOrFoe;
 };
 
 #endif // POKEMON_H
