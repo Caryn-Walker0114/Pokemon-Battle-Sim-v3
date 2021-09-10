@@ -37,7 +37,7 @@ class Game
 
         friend int choosePoke(); // Chooses Pokemon for the user
 
-        friend int chooseAiPoke(); // Chooses Pokemon for the AI randomly based on the choices that are left. Sends integer to overloaded createPokemon(int a)
+        friend int chooseAiPoke(); // Chooses Pokemon for the AI randomly based on the choices that are left. Sends integer to createAiPokemon(int a)
 
         friend void createPokemon(); // Creates the object for the user's Pokemon and then generates stats for that Pokemon object
 
