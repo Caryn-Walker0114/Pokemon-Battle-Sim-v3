@@ -41,11 +41,11 @@ class Pokemon
     protected:
 
         std::string name;
-         int maxHealth;
-         int currentHealth;
-         int attack;
-         int speed;
-         bool friendOrFoe;
+        int maxHealth;
+        int currentHealth;
+        int attack;
+        int speed;
+        bool friendOrFoe;
 };
 
 #endif // POKEMON_H
